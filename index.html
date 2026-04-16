@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lungile Owami Mhlope | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Lungile Owami Mhlope, an aspiring software developer building practical web and Python projects."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;700;800&family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="galaxy-layer galaxy-layer-back" aria-hidden="true"></div>
+    <div class="galaxy-layer galaxy-layer-mid" aria-hidden="true"></div>
+    <div class="galaxy-glow" aria-hidden="true"></div>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="water-cursor" id="waterCursor" aria-hidden="true">
+      <span class="water-ring water-ring-one"></span>
+      <span class="water-ring water-ring-two"></span>
+      <span class="water-core"></span>
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="#home">Lungile</a>
+      <nav class="site-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main class="page-shell">
+      <section class="hero" id="home">
+        <div class="hero-copy reveal">
+          <p class="hero-kicker">Student at Uncommon.org / Aspiring software developer</p>
+          <h1>
+            I'm Lungile,
+            <h1 class="hero-accent">a curious builder</h1>
+            creating useful digital projects.
+          </h1>
+          <p class="hero-subtitle">
+            I work with Python, JavaScript, HTML, CSS, and prompt engineering to
+            build practical tools, responsive websites, and projects that solve
+            real problems.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#about">About Me</a>
+            <a class="button button-secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-side reveal" aria-hidden="true">
+          <div class="hero-orb hero-orb-one"></div>
+          <div class="hero-orb hero-orb-two"></div>
+          <div class="hero-card">
+            <p>Focused on Python projects, clean interfaces, and learning through building.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section" id="about">
+        <div class="section-heading reveal">
+          <p class="section-label">About</p>
+          <h2>A little more about me</h2>
+        </div>
+
+        <div class="about-layout">
+          <div class="about-portrait reveal">
+            <div class="portrait-frame">
+              <span>LOM</span>
+            </div>
+          </div>
+
+          <div class="about-copy reveal">
+            <p>
+              I'm a motivated developer with a growing passion for building useful
+              software and modern web experiences. My journey has included Python
+              desktop tools, responsive websites, student systems, and practical
+              mini apps that help me sharpen my skills.
+            </p>
+            <p>
+              I enjoy learning by building real things. Whether it's a Tkinter
+              popup app, a weather web app, or an age calculator, I like turning
+              simple ideas into clean, working projects.
+            </p>
+            <p>
+              Right now I'm focused on strengthening my programming fundamentals,
+              improving my UI skills, and exploring prompt engineering as part of
+              my software development journey.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills-section" id="skills">
+        <div class="section-heading reveal">
+          <p class="section-label">Skills</p>
+          <h2>Tools, stack, and strengths</h2>
+        </div>
+
+        <div class="highlights-grid reveal" id="highlightsGrid"></div>
+
+        <div class="known-for reveal">
+          <h3>What I'm known for</h3>
+          <ul id="knownForList"></ul>
+        </div>
+
+        <div class="skills-marquee reveal">
+          <div class="skills-track" id="skillsTrack"></div>
+        </div>
+      </section>
+
+      <section class="projects-section" id="projects">
+        <div class="section-heading reveal">
+          <p class="section-label">Selected Works</p>
+          <h2>Projects I've built</h2>
+        </div>
+        <div class="projects-grid" id="projectGrid"></div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="section-heading reveal">
+          <p class="section-label">Contact</p>
+          <h2>Let's work together</h2>
+        </div>
+
+        <div class="contact-layout">
+          <form
+            class="contact-form reveal"
+            id="contactForm"
+            action="https://formsubmit.co/ajax/mhlopelungile@gmail.com"
+            method="POST"
+          >
+            <input type="hidden" name="_subject" value="New portfolio message" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Message
+              <textarea
+                name="message"
+                rows="5"
+                placeholder="Tell me about your idea or project"
+                required
+              ></textarea>
+            </label>
+            <button class="button button-primary" id="submitButton" type="submit">
+              Send Message
+            </button>
+            <p class="form-status" id="formStatus" aria-live="polite"></p>
+          </form>
+
+          <div class="contact-links reveal">
+            <a href="mailto:mhlopelungile@gmail.com">mhlopelungile@gmail.com</a>
+            <a
+              href="https://github.com/mhlopelungile-art"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/search/results/all/?keywords=Lungile%20Mhlope"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
+            <a href="https://wa.me/263774300804" target="_blank" rel="noreferrer">
+              WhatsApp
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Lungile Owami Mhlope. All rights reserved.</p>
+      <div class="footer-links">
+        <a
+          href="https://github.com/mhlopelungile-art"
+          target="_blank"
+          rel="noreferrer"
+        >
+          GitHub
+        </a>
+        <a
+          href="https://www.linkedin.com/search/results/all/?keywords=Lungile%20Mhlope"
+          target="_blank"
+          rel="noreferrer"
+        >
+          LinkedIn
+        </a>
+        <a href="https://wa.me/263774300804" target="_blank" rel="noreferrer">
+          WhatsApp
+        </a>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
