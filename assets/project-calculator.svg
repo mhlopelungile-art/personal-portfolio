@@ -1,0 +1,36 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" rx="48" fill="url(#bg)"/>
+  <rect x="322" y="82" width="556" height="636" rx="46" fill="#171B24"/>
+  <rect x="368" y="134" width="464" height="126" rx="28" fill="#232A36"/>
+  <text x="420" y="212" fill="#F6F7FB" font-family="Arial, sans-serif" font-size="72" font-weight="700">128 + 64</text>
+  <g>
+    <rect x="368" y="308" width="98" height="98" rx="24" fill="#F1F4F9"/>
+    <rect x="486" y="308" width="98" height="98" rx="24" fill="#F1F4F9"/>
+    <rect x="604" y="308" width="98" height="98" rx="24" fill="#F1F4F9"/>
+    <rect x="722" y="308" width="110" height="98" rx="24" fill="#FF8A34"/>
+    <rect x="368" y="426" width="98" height="98" rx="24" fill="#F1F4F9"/>
+    <rect x="486" y="426" width="98" height="98" rx="24" fill="#F1F4F9"/>
+    <rect x="604" y="426" width="98" height="98" rx="24" fill="#F1F4F9"/>
+    <rect x="722" y="426" width="110" height="98" rx="24" fill="#FF8A34"/>
+    <rect x="368" y="544" width="216" height="98" rx="24" fill="#F1F4F9"/>
+    <rect x="604" y="544" width="98" height="98" rx="24" fill="#F1F4F9"/>
+    <rect x="722" y="544" width="110" height="98" rx="24" fill="#FF8A34"/>
+  </g>
+  <text x="404" y="370" fill="#212733" font-family="Arial, sans-serif" font-size="36" font-weight="700">7</text>
+  <text x="522" y="370" fill="#212733" font-family="Arial, sans-serif" font-size="36" font-weight="700">8</text>
+  <text x="640" y="370" fill="#212733" font-family="Arial, sans-serif" font-size="36" font-weight="700">9</text>
+  <text x="760" y="370" fill="white" font-family="Arial, sans-serif" font-size="40" font-weight="700">÷</text>
+  <text x="404" y="488" fill="#212733" font-family="Arial, sans-serif" font-size="36" font-weight="700">4</text>
+  <text x="522" y="488" fill="#212733" font-family="Arial, sans-serif" font-size="36" font-weight="700">5</text>
+  <text x="640" y="488" fill="#212733" font-family="Arial, sans-serif" font-size="36" font-weight="700">6</text>
+  <text x="760" y="488" fill="white" font-family="Arial, sans-serif" font-size="40" font-weight="700">×</text>
+  <text x="452" y="606" fill="#212733" font-family="Arial, sans-serif" font-size="36" font-weight="700">0</text>
+  <text x="640" y="606" fill="#212733" font-family="Arial, sans-serif" font-size="36" font-weight="700">.</text>
+  <text x="760" y="606" fill="white" font-family="Arial, sans-serif" font-size="40" font-weight="700">=</text>
+  <defs>
+    <linearGradient id="bg" x1="137" y1="76" x2="1064" y2="737" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE8C4"/>
+      <stop offset="1" stop-color="#C98A53"/>
+    </linearGradient>
+  </defs>
+</svg>

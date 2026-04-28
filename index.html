@@ -6,212 +6,345 @@
     <title>Lungile Owami Mhlope | Portfolio</title>
     <meta
       name="description"
-      content="Portfolio of Lungile Owami Mhlope, an aspiring software developer building practical web and Python projects."
+      content="Portfolio website for Lungile Owami Mhlope, a software developer student building practical web and software projects."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;700;800&family=Instrument+Serif:ital@0;1&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <div class="galaxy-layer galaxy-layer-back" aria-hidden="true"></div>
-    <div class="galaxy-layer galaxy-layer-mid" aria-hidden="true"></div>
-    <div class="galaxy-glow" aria-hidden="true"></div>
-    <div class="noise" aria-hidden="true"></div>
-    <div class="water-cursor" id="waterCursor" aria-hidden="true">
-      <span class="water-ring water-ring-one"></span>
-      <span class="water-ring water-ring-two"></span>
-      <span class="water-core"></span>
-    </div>
+    <div class="page-shell">
+      <div class="portfolio-grid">
+        <section class="card hero-card" id="home">
+          <video
+            class="hero-video"
+            autoplay
+            muted
+            loop
+            playsinline
+            aria-hidden="true"
+          >
+            <source src="./assets/hero-video-trimmed.mp4" type="video/mp4" />
+          </video>
+          <div class="hero-overlay" aria-hidden="true"></div>
 
-    <header class="site-header">
-      <a class="brand" href="#home">Lungile</a>
-      <nav class="site-nav">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
+          <header class="topbar">
+            <a class="brand" href="#home">Lungile*</a>
+            <nav class="nav-links" aria-label="Primary">
+              <a href="#home">Home</a>
+              <a href="#about">About</a>
+              <a href="#projects">Projects</a>
+              <a href="#contact">Contact</a>
+            </nav>
+            <a class="pill-button pill-light" href="#contact">
+              Get in touch
+              <span aria-hidden="true">+</span>
+            </a>
+          </header>
 
-    <main class="page-shell">
-      <section class="hero" id="home">
-        <div class="hero-copy reveal">
-          <p class="hero-kicker">Student at Uncommon.org / Aspiring software developer</p>
-          <h1>
-            I'm Lungile,
-            <h1 class="hero-accent">a curious builder</h1>
-            creating useful digital projects.
-          </h1>
-          <p class="hero-subtitle">
-            I work with Python, JavaScript, HTML, CSS, and prompt engineering to
-            build practical tools, responsive websites, and projects that solve
-            real problems.
-          </p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#about">About Me</a>
-            <a class="button button-secondary" href="#contact">Contact Me</a>
-          </div>
-        </div>
+          <div class="hero-layout">
+            <div class="hero-copy reveal">
+              <p class="eyebrow">Software Developer Student</p>
+              <h1>Lungile Owami Mhlope</h1>
+              <p class="hero-note">
+                I learn by building websites, software tools, and practical
+                solutions that make everyday tasks simpler.
+              </p>
+            </div>
 
-        <div class="hero-side reveal" aria-hidden="true">
-          <div class="hero-orb hero-orb-one"></div>
-          <div class="hero-orb hero-orb-two"></div>
-          <div class="hero-card">
-            <p>Focused on Python projects, clean interfaces, and learning through building.</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="about-section" id="about">
-        <div class="section-heading reveal">
-          <p class="section-label">About</p>
-          <h2>A little more about me</h2>
-        </div>
-
-        <div class="about-layout">
-          <div class="about-portrait reveal">
-            <div class="portrait-frame">
-              <span>LOM</span>
+            <div class="hero-meta reveal">
+              <div>
+                <span>01</span>
+                <p>Frontend Development</p>
+              </div>
+              <div>
+                <span>02</span>
+                <p>Python Projects</p>
+              </div>
+              <div>
+                <span>03</span>
+                <p>Problem Solving</p>
+              </div>
             </div>
           </div>
 
-          <div class="about-copy reveal">
-            <p>
-              I'm a motivated developer with a growing passion for building useful
-              software and modern web experiences. My journey has included Python
-              desktop tools, responsive websites, student systems, and practical
-              mini apps that help me sharpen my skills.
-            </p>
-            <p>
-              I enjoy learning by building real things. Whether it's a Tkinter
-              popup app, a weather web app, or an age calculator, I like turning
-              simple ideas into clean, working projects.
-            </p>
-            <p>
-              Right now I'm focused on strengthening my programming fundamentals,
-              improving my UI skills, and exploring prompt engineering as part of
-              my software development journey.
+          <div class="logo-strip">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Python</span>
+            <span>GitHub</span>
+          </div>
+        </section>
+
+        <section class="card story-card">
+          <div class="section-split reveal">
+            <div>
+              <p class="section-kicker">What I focus on</p>
+              <h2>Building software experiences that solve real problems</h2>
+            </div>
+            <div class="story-side">
+              <p>
+                I&apos;m a software developer student focused on improving my
+                skills through real projects, clean interfaces, and useful
+                applications people can actually use.
+              </p>
+              <a class="pill-button pill-accent" href="#projects">
+                Selected work
+                <span aria-hidden="true">+</span>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="card pillar-card pillar-card-web">
+          <div class="pillar-copy reveal">
+            <p class="section-kicker">Pillar 01</p>
+            <h2>Web apps</h2>
+            <p class="section-copy">
+              I enjoy building responsive websites and interfaces that feel
+              smooth, readable, and practical for real users.
             </p>
           </div>
-        </div>
-      </section>
+          <article class="visual-card web-app-photo-card reveal">
+            <div class="visual-label">
+              <strong>Web apps</strong>
+              <span>Responsive interfaces</span>
+            </div>
+          </article>
+        </section>
 
-      <section class="skills-section" id="skills">
-        <div class="section-heading reveal">
-          <p class="section-label">Skills</p>
-          <h2>Tools, stack, and strengths</h2>
-        </div>
+        <section class="card pillar-card pillar-card-python">
+          <article class="visual-card python-tools-photo-card reveal">
+            <div class="visual-label">
+              <strong>Python tools</strong>
+              <span>Logic and automation</span>
+            </div>
+          </article>
+          <div class="pillar-copy reveal">
+            <p class="section-kicker">Pillar 02</p>
+            <h2>Python tools</h2>
+            <p class="section-copy">
+              Python helps me practice logic, automation, and building simple
+              systems that solve everyday problems more efficiently.
+            </p>
+          </div>
+        </section>
 
-        <div class="highlights-grid reveal" id="highlightsGrid"></div>
+        <section class="card pillar-card pillar-card-journey">
+          <div class="pillar-copy reveal">
+            <p class="section-kicker">Pillar 03</p>
+            <h2>Learning journey</h2>
+            <p class="section-copy">
+              Every project teaches me something new, and I keep growing by
+              building consistently, improving structure, and staying curious.
+            </p>
+          </div>
+          <article class="visual-card learning-journey-photo-card reveal">
+            <div class="visual-label">
+              <strong>Learning journey</strong>
+              <span>Consistent growth</span>
+            </div>
+          </article>
+        </section>
 
-        <div class="known-for reveal">
-          <h3>What I'm known for</h3>
-          <ul id="knownForList"></ul>
-        </div>
+        <section class="card gallery-card">
+          <div class="section-header reveal">
+            <p class="section-kicker">More projects</p>
+            <h2>Curious what else I&apos;ve been building?</h2>
+            <p class="section-copy">
+              A growing collection of student projects, coding experiments,
+              interface practice, and practical tools built while learning.
+            </p>
+          </div>
+          <div class="scroll-row" id="scrollGallery" aria-label="Project previews"></div>
+        </section>
 
-        <div class="skills-marquee reveal">
-          <div class="skills-track" id="skillsTrack"></div>
-        </div>
-      </section>
+        <section class="card values-card">
+          <div class="mosaic-grid">
+            <article class="mosaic-tile moss-tile reveal">
+              <h3>Learn by building</h3>
+              <p>Projects help me understand concepts faster and more deeply.</p>
+            </article>
+            <article class="mosaic-tile orange-tile reveal">
+              <h3>Code with purpose</h3>
+              <p>I focus on useful solutions, not just visual polish.</p>
+            </article>
+            <article class="mosaic-tile sky-tile reveal">
+              <h3>Keep improving</h3>
+              <p>Every build is a chance to strengthen logic and structure.</p>
+            </article>
+            <article class="mosaic-tile bag-tile reveal">
+              <h3>Build for users</h3>
+              <p>Clear interfaces matter just as much as working code.</p>
+            </article>
+          </div>
+        </section>
 
-      <section class="projects-section" id="projects">
-        <div class="section-heading reveal">
-          <p class="section-label">Selected Works</p>
-          <h2>Projects I've built</h2>
-        </div>
-        <div class="projects-grid" id="projectGrid"></div>
-      </section>
+        <section class="card pricing-card">
+          <div class="section-header reveal">
+            <p class="section-kicker">Current strengths</p>
+            <h2>Skills I&apos;m actively building</h2>
+            <p class="section-copy">
+              These are the areas I&apos;m practicing most as I grow into a
+              stronger software developer.
+            </p>
+          </div>
+          <div class="pricing-grid" id="pricingGrid"></div>
+        </section>
 
-      <section class="contact-section" id="contact">
-        <div class="section-heading reveal">
-          <p class="section-label">Contact</p>
-          <h2>Let's work together</h2>
-        </div>
+        <section class="card list-card">
+          <div class="section-split reveal">
+            <div>
+              <p class="section-kicker">Recent work</p>
+              <h2>Latest projects & coding practice</h2>
+            </div>
+            <p class="section-copy">
+              A look at the kinds of applications and exercises I&apos;ve been
+              creating while improving my development skills.
+            </p>
+          </div>
+          <div class="accordion-list" id="workAccordion"></div>
+        </section>
 
-        <div class="contact-layout">
-          <form
-            class="contact-form reveal"
-            id="contactForm"
-            action="https://formsubmit.co/ajax/mhlopelungile@gmail.com"
-            method="POST"
-          >
-            <input type="hidden" name="_subject" value="New portfolio message" />
-            <input type="hidden" name="_captcha" value="false" />
-            <input type="hidden" name="_template" value="table" />
-            <label>
-              Name
-              <input type="text" name="name" placeholder="Your name" required />
-            </label>
-            <label>
-              Email
-              <input type="email" name="email" placeholder="you@example.com" required />
-            </label>
-            <label>
-              Message
-              <textarea
-                name="message"
-                rows="5"
-                placeholder="Tell me about your idea or project"
-                required
-              ></textarea>
-            </label>
-            <button class="button button-primary" id="submitButton" type="submit">
-              Send Message
-            </button>
-            <p class="form-status" id="formStatus" aria-live="polite"></p>
-          </form>
+        <section class="card showcase-card" id="projects">
+          <div class="project-grid" id="projectGrid"></div>
+        </section>
 
-          <div class="contact-links reveal">
-            <a href="mailto:mhlopelungile@gmail.com">mhlopelungile@gmail.com</a>
-            <a
-              href="https://github.com/mhlopelungile-art"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub
-            </a>
-            <a
-              href="https://www.linkedin.com/search/results/all/?keywords=Lungile%20Mhlope"
-              target="_blank"
-              rel="noreferrer"
-            >
-              LinkedIn
-            </a>
-            <a href="https://wa.me/263774300804" target="_blank" rel="noreferrer">
-              WhatsApp
+        <section class="card intro-card" id="about">
+          <div class="intro-text reveal">
+            <p class="section-kicker">About me</p>
+            <h2>Developer student. Builder. Continuous learner.</h2>
+            <p>
+              I enjoy combining curiosity, persistence, and practical coding to
+              create projects that help me grow and solve meaningful problems.
+            </p>
+            <a class="pill-button pill-accent" href="#contact">
+              Let&apos;s connect
+              <span aria-hidden="true">+</span>
             </a>
           </div>
-        </div>
-      </section>
-    </main>
+          <div class="portrait-panel reveal">
+            <video
+              class="about-video"
+              autoplay
+              muted
+              loop
+              playsinline
+              aria-hidden="true"
+            >
+              <source src="./assets/about-video-trimmed.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </section>
 
-    <footer class="site-footer">
-      <p>&copy; <span id="year"></span> Lungile Owami Mhlope. All rights reserved.</p>
-      <div class="footer-links">
-        <a
-          href="https://github.com/mhlopelungile-art"
-          target="_blank"
-          rel="noreferrer"
-        >
-          GitHub
-        </a>
-        <a
-          href="https://www.linkedin.com/search/results/all/?keywords=Lungile%20Mhlope"
-          target="_blank"
-          rel="noreferrer"
-        >
-          LinkedIn
-        </a>
-        <a href="https://wa.me/263774300804" target="_blank" rel="noreferrer">
-          WhatsApp
-        </a>
+        <section class="card process-card">
+          <div class="section-split reveal">
+            <div>
+              <p class="section-kicker">How I work</p>
+              <h2>My learning and building process</h2>
+            </div>
+            <p class="section-copy">
+              From understanding a problem to testing a working solution, I
+              follow a simple process that helps me learn and build better each
+              time.
+            </p>
+          </div>
+          <div class="process-steps" id="processSteps"></div>
+        </section>
+
+        <section class="card contact-card" id="contact">
+          <div class="section-split reveal">
+            <div>
+              <p class="section-kicker">Contact</p>
+              <h2>Let&apos;s talk about projects and opportunities</h2>
+            </div>
+            <p class="section-copy">
+              If you&apos;d like to connect, collaborate, or ask about my work,
+              send me a message and I&apos;ll get back to you.
+            </p>
+          </div>
+
+          <div class="contact-layout">
+            <form
+              class="contact-form reveal"
+              id="contactForm"
+              action="https://formsubmit.co/ajax/mhlopelungile@gmail.com"
+              method="POST"
+            >
+              <input type="hidden" name="_subject" value="New portfolio message" />
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_template" value="table" />
+
+              <label>
+                Name
+                <input type="text" name="name" placeholder="Your name" required />
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" placeholder="you@example.com" required />
+              </label>
+              <label>
+                Topic
+                <select name="topic" required>
+                  <option value="">Select a topic</option>
+                  <option value="Project collaboration">Project collaboration</option>
+                  <option value="Internship opportunity">Internship opportunity</option>
+                  <option value="General inquiry">General inquiry</option>
+                </select>
+              </label>
+              <label>
+                Message
+                <textarea
+                  name="message"
+                  rows="5"
+                  placeholder="Tell me about your message or opportunity"
+                  required
+                ></textarea>
+              </label>
+              <button class="pill-button pill-dark" id="submitButton" type="submit">
+                Send message
+                <span aria-hidden="true">+</span>
+              </button>
+              <p class="form-status" id="formStatus" aria-live="polite"></p>
+            </form>
+
+            <aside class="contact-panel reveal">
+              <div>
+                <p class="contact-label">Email</p>
+                <a href="mailto:mhlopelungile@gmail.com">mhlopelungile@gmail.com</a>
+              </div>
+              <div>
+                <p class="contact-label">WhatsApp</p>
+                <a href="https://wa.me/263774300804" target="_blank" rel="noreferrer">
+                  +263 774 300 804
+                </a>
+              </div>
+              <div>
+                <p class="contact-label">GitHub</p>
+                <a href="https://github.com/mhlopelungile-art" target="_blank" rel="noreferrer">
+                  github.com/mhlopelungile-art
+                </a>
+              </div>
+              <div>
+                <p class="contact-label">LinkedIn</p>
+                <a
+                  href="https://www.linkedin.com/search/results/all/?keywords=Lungile%20Mhlope"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Find Lungile Mhlope
+                </a>
+              </div>
+            </aside>
+          </div>
+        </section>
       </div>
-    </footer>
+    </div>
 
     <script src="./js/script.js"></script>
   </body>

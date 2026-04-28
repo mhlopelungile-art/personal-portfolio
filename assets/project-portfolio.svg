@@ -1,0 +1,25 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" rx="48" fill="url(#bg)"/>
+  <rect x="92" y="94" width="1016" height="612" rx="38" fill="#101521"/>
+  <rect x="92" y="94" width="1016" height="70" rx="38" fill="#171E2D"/>
+  <circle cx="142" cy="129" r="10" fill="#FF6D6D"/>
+  <circle cx="176" cy="129" r="10" fill="#FFD36D"/>
+  <circle cx="210" cy="129" r="10" fill="#73E38E"/>
+  <text x="156" y="274" fill="white" font-family="Arial, sans-serif" font-size="30">Software Developer Student</text>
+  <text x="156" y="374" fill="white" font-family="Arial, sans-serif" font-size="84" font-weight="700">Lungile</text>
+  <text x="156" y="452" fill="#C3D0F5" font-family="Arial, sans-serif" font-size="32">Projects, skills, and growth in one place</text>
+  <rect x="156" y="520" width="196" height="58" rx="29" fill="#FFF5EA"/>
+  <text x="192" y="558" fill="#1A2030" font-family="Arial, sans-serif" font-size="26" font-weight="700">Explore Work</text>
+  <rect x="684" y="218" width="328" height="218" rx="28" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.18)" stroke-width="2"/>
+  <rect x="718" y="252" width="260" height="26" rx="13" fill="#5AC8FA"/>
+  <rect x="718" y="300" width="194" height="18" rx="9" fill="#B8C6E8"/>
+  <rect x="718" y="334" width="236" height="18" rx="9" fill="#B8C6E8"/>
+  <rect x="718" y="466" width="136" height="138" rx="24" fill="#1C2435"/>
+  <rect x="876" y="466" width="136" height="138" rx="24" fill="#FF7A2D"/>
+  <defs>
+    <linearGradient id="bg" x1="103" y1="58" x2="1085" y2="743" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#192235"/>
+      <stop offset="1" stop-color="#FE7B30"/>
+    </linearGradient>
+  </defs>
+</svg>

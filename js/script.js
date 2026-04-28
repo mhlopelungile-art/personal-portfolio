@@ -1,199 +1,293 @@
 const portfolioData = {
-  projects: [
+  gallery: [
+    {
+      title: "Weather App",
+      tag: "JavaScript project",
+      background:
+        "linear-gradient(135deg, #5dc1e3 0%, #9fe4ff 48%, #f6f0c3 100%)",
+    },
+    {
+      title: "Student System",
+      tag: "Python project",
+      background:
+        "linear-gradient(135deg, #365c34 0%, #6f915e 52%, #d0d9a1 100%)",
+    },
+    {
+      title: "Portfolio Build",
+      tag: "Frontend practice",
+      background:
+        "linear-gradient(135deg, #100f15 0%, #6a1200 58%, #ff5d2d 100%)",
+    },
+    {
+      title: "Age Calculator",
+      tag: "Utility app",
+      background:
+        "linear-gradient(135deg, #46342b 0%, #a86b49 48%, #eedfcf 100%)",
+    },
+    {
+      title: "Calculator",
+      tag: "Logic practice",
+      background:
+        "linear-gradient(135deg, #f0f0f0 0%, #a2a2a2 46%, #393939 100%)",
+    },
+    {
+      title: "UI Experiments",
+      tag: "Learning by building",
+      background:
+        "linear-gradient(135deg, #dbe1ed 0%, #f4f7fb 36%, #f9d0db 100%)",
+    },
+    {
+      title: "Next Build",
+      tag: "In progress",
+      background:
+        "linear-gradient(135deg, #f9b7d0 0%, #f5d7e9 45%, #d9f0ff 100%)",
+    },
+  ],
+  pricing: [
+    {
+      name: "Frontend",
+      price: "01",
+      note: "core focus",
+      features: ["HTML structure", "CSS styling", "Responsive layouts"],
+    },
+    {
+      name: "Programming",
+      price: "02",
+      note: "active growth",
+      featured: true,
+      features: ["Python basics", "JavaScript logic", "Problem solving"],
+    },
+    {
+      name: "Tools",
+      price: "03",
+      note: "daily practice",
+      features: ["GitHub workflow", "Project structure", "Debugging mindset"],
+    },
+  ],
+  work: [
     {
       title: "Weather Web App",
-      description:
-        "A responsive weather app that presents forecast information in a clean and easy-to-use interface.",
-      tech: ["HTML", "CSS", "JavaScript"],
-      label: "Weather App",
-      status: "Completed",
+      category: "HTML, CSS, JavaScript",
+      summary:
+        "A responsive weather app built to display forecast information in a clear and user-friendly interface.",
       link: "https://github.com/mhlopelungile-art/weather-app",
     },
     {
-      title: "Live Website",
+      title: "Student Register System",
+      category: "Python project",
+      summary:
+        "A practical student-focused system created to organize learner information and improve data handling.",
+      link: "https://github.com/mhlopelungile-art",
+    },
+    {
+      title: "Portfolio Website",
+      category: "Personal website",
+      summary:
+        "A portfolio build focused on layout, responsiveness, presentation, and showcasing personal work clearly.",
+      link: "https://github.com/mhlopelungile-art/website-portfolio",
+    },
+    {
+      title: "Calculator App",
+      category: "Logic practice",
+      summary:
+        "A simple calculator app used to strengthen my understanding of JavaScript logic and user interaction.",
+      link: "https://github.com/mhlopelungile-art/calculator",
+    },
+  ],
+  projects: [
+    {
+      title: "Weather App",
       description:
-        "A published website built for real users with responsive sections, polished styling, and production-ready structure.",
-      tech: ["HTML", "CSS", "JavaScript"],
-      label: "Live Website",
-      status: "Completed",
-      link: "https://github.com/mhlopelungile-art/website-gym",
+        "A clean weather application that helped me practice API-style thinking, layout structure, and responsive design.",
+      image: "./assets/project-weather.svg",
+      background:
+        "linear-gradient(135deg, #d4f1df 0%, #f2f7e4 36%, #8db89b 100%)",
+      link: "https://github.com/mhlopelungile-art/weather-app",
     },
     {
       title: "Age Calculator",
       description:
-        "A useful calculator that takes a date input and instantly returns an age result in a simple interface.",
-      tech: ["HTML", "CSS", "JavaScript"],
-      label: "Utility Tool",
-      status: "Completed",
+        "A useful app that calculates age from a selected date and helped me practice form handling and app logic.",
+      image: "./assets/project-age.svg",
+      background:
+        "linear-gradient(135deg, #f7d0df 0%, #f8edf2 38%, #c5dfff 100%)",
       link: "https://github.com/mhlopelungile-art/age_calculator",
     },
     {
       title: "Calculator",
       description:
-        "A functional calculator application for performing basic arithmetic operations.",
-      tech: ["HTML", "CSS", "JavaScript"],
-      label: "Calculator",
-      status: "Completed",
+        "A basic calculator project built to strengthen my JavaScript fundamentals and interface structure.",
+      image: "./assets/project-calculator.svg",
+      background:
+        "linear-gradient(135deg, #b38c67 0%, #d3b79b 44%, #f6efe5 100%)",
       link: "https://github.com/mhlopelungile-art/calculator",
     },
     {
       title: "Portfolio Website",
       description:
-        "A personal portfolio website showcasing responsive design, projects, and contact information.",
-      tech: ["HTML", "CSS", "JavaScript"],
-      label: "Portfolio",
-      status: "Completed",
+        "A personal portfolio site created to present my journey, projects, and progress as a software developer student.",
+      image: "./assets/project-portfolio.svg",
+      background:
+        "linear-gradient(135deg, #161726 0%, #ff5f2e 52%, #ffb16d 100%)",
       link: "https://github.com/mhlopelungile-art/website-portfolio",
     },
-    {
-      title: "Community Solve",
-      description:
-        "An interactive application designed to bring communities together and solve problems collaboratively.",
-      tech: ["Figma", "Design"],
-      label: "Community App",
-      status: "Completed",
-      link: "https://grab-cool-75098181.figma.site",
-    },
-    {
-      title: "Website Project",
-      description:
-        "A multi-section website project built with responsive layout and polished visual structure.",
-      tech: ["HTML", "CSS", "JavaScript"],
-      label: "Website",
-      status: "Completed",
-      link: "https://github.com/mhlopelungile-art/website_project",
-    },
-    {
-      title: "Student Register System",
-      description:
-        "A student-focused system for recording and organizing learner information more clearly and efficiently.",
-      tech: ["Python", "HTML", "CSS"],
-      label: "Student System",
-      status: "Completed",
-    },
-    {
-      title: "More Creative Builds",
-      description:
-        "A growing collection of experiments and smaller builds exploring coding, interfaces, and prompt-based workflows.",
-      tech: ["Python", "JavaScript", "Prompt Engineering"],
-      label: "Experiments",
-      status: "Ongoing",
-    },
   ],
-  highlights: [
+  process: [
     {
-      title: "Python Projects",
-      text: "Building desktop tools, logic-based applications, and practical problem-solving projects.",
+      title: "Understand",
+      text: "I start by understanding the problem, the goal of the project, and what the application needs to do.",
     },
     {
-      title: "Web Development",
-      text: "Creating responsive interfaces with HTML, CSS, and JavaScript for clean user experiences.",
+      title: "Plan",
+      text: "I break the idea into smaller steps, decide what tools to use, and think through the best structure.",
     },
     {
-      title: "Prompt Engineering",
-      text: "Exploring better ways to guide AI tools for creative and useful outputs.",
+      title: "Build",
+      text: "I write the code, test the features, and keep improving the design and logic as the project takes shape.",
     },
-  ],
-  knownFor: [
-    "Problem Solving",
-    "Responsive Design",
-    "Python Basics",
-    "Frontend Development",
-    "Learning by Building",
-    "User-Friendly Interfaces",
-    "Curiosity and Growth",
-    "Turning ideas into projects",
-  ],
-  skills: [
-    "Python",
-    "JavaScript",
-    "HTML",
-    "CSS",
-    "Tkinter",
-    "Prompt Engineering",
-    "Responsive Design",
-    "Web Development",
-    "Problem Solving",
-    "Frontend Projects",
+    {
+      title: "Improve",
+      text: "I review what worked, fix what needs attention, and use every project to become a stronger developer.",
+    },
   ],
 };
 
+const scrollGallery = document.getElementById("scrollGallery");
+const pricingGrid = document.getElementById("pricingGrid");
+const workAccordion = document.getElementById("workAccordion");
 const projectGrid = document.getElementById("projectGrid");
-const highlightsGrid = document.getElementById("highlightsGrid");
-const knownForList = document.getElementById("knownForList");
-const skillsTrack = document.getElementById("skillsTrack");
-const yearElement = document.getElementById("year");
-const contactForm = document.querySelector(".contact-form");
-const formStatus = document.getElementById("formStatus");
+const processSteps = document.getElementById("processSteps");
+const contactForm = document.getElementById("contactForm");
 const submitButton = document.getElementById("submitButton");
-const waterCursor = document.getElementById("waterCursor");
-const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+const formStatus = document.getElementById("formStatus");
+portfolioData.gallery.forEach((item) => {
+  const card = document.createElement("article");
+  card.className = "gallery-item reveal";
+  card.style.setProperty("--item-bg", item.background);
+  card.innerHTML = `
+    <div class="gallery-caption">
+      <strong>${item.title}</strong>
+      <span>${item.tag}</span>
+    </div>
+  `;
+  scrollGallery.appendChild(card);
+});
+
+portfolioData.pricing.forEach((plan) => {
+  const card = document.createElement("article");
+  card.className = `price-card${plan.featured ? " is-featured" : ""}`;
+  card.innerHTML = `
+    <h3>${plan.name}</h3>
+    <p class="price">${plan.price} <small>${plan.note}</small></p>
+    <ul>
+      ${plan.features.map((feature) => `<li>${feature}</li>`).join("")}
+    </ul>
+    <a class="pill-button ${plan.featured ? "pill-light" : "pill-accent"}" href="#contact">
+      Book now
+      <span aria-hidden="true">+</span>
+    </a>
+  `;
+  pricingGrid.appendChild(card);
+});
+
+portfolioData.work.forEach((item, index) => {
+  const workItem = document.createElement("article");
+  workItem.className = `work-item${index === 0 ? " is-open" : ""}`;
+  workItem.innerHTML = `
+    <button class="accordion-trigger" type="button" aria-expanded="${index === 0}">
+      <div>
+        <strong>${item.title}</strong>
+        <span>${item.category}</span>
+      </div>
+      <span class="index-pill">${String(index + 1).padStart(2, "0")}</span>
+    </button>
+    <div class="work-panel">
+      <div class="work-panel-inner">
+        <div class="work-panel-content">
+          <p>${item.summary}</p>
+          <a class="work-link" href="${item.link}" target="_blank" rel="noreferrer">
+            View project
+            <span aria-hidden="true">+</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  `;
+  workAccordion.appendChild(workItem);
+});
 
 portfolioData.projects.forEach((project) => {
   const card = document.createElement("article");
   card.className = "project-card reveal";
-  const linkLabel = project.linkLabel || "View project";
-  const linkHtml = project.link ? `<a href="${project.link}" target="_blank" class="project-link">${linkLabel}</a>` : '';
   card.innerHTML = `
-    <div class="project-image" aria-hidden="true">
-      <span class="project-image-label">${project.label}</span>
+    <div class="project-thumb" style="--project-bg:${project.background}">
+      <img class="project-thumb-image" src="${project.image}" alt="${project.title} preview" loading="lazy" />
     </div>
     <div class="project-content">
-      <p class="project-status">${project.status}</p>
       <h3>${project.title}</h3>
       <p>${project.description}</p>
-      <div class="project-tech">
-        ${project.tech.map((item) => `<span>${item}</span>`).join("")}
-      </div>
-      ${linkHtml}
+      <a class="project-action" href="${project.link}" target="_blank" rel="noreferrer">
+        View project
+        <span aria-hidden="true">+</span>
+      </a>
     </div>
   `;
   projectGrid.appendChild(card);
 });
 
-portfolioData.highlights.forEach((item) => {
-  const block = document.createElement("article");
-  block.className = "highlight-item";
-  block.innerHTML = `
-    <h3>${item.title}</h3>
-    <p>${item.text}</p>
+portfolioData.process.forEach((step, index) => {
+  const card = document.createElement("article");
+  card.className = "process-step reveal";
+  card.innerHTML = `
+    <span class="step-number">${String(index + 1).padStart(2, "0")}</span>
+    <h3>${step.title}</h3>
+    <p>${step.text}</p>
   `;
-  highlightsGrid.appendChild(block);
+  processSteps.appendChild(card);
 });
 
-portfolioData.knownFor.forEach((item) => {
-  const listItem = document.createElement("li");
-  listItem.textContent = item;
-  knownForList.appendChild(listItem);
-});
+workAccordion.addEventListener("click", (event) => {
+  const trigger = event.target.closest(".accordion-trigger");
 
-const marqueeItems = [...portfolioData.skills, ...portfolioData.skills];
-marqueeItems.forEach((skill) => {
-  const chip = document.createElement("span");
-  chip.textContent = skill;
-  skillsTrack.appendChild(chip);
-});
+  if (!trigger) {
+    return;
+  }
 
-yearElement.textContent = new Date().getFullYear();
+  const item = trigger.closest(".work-item");
+  const items = workAccordion.querySelectorAll(".work-item");
+  const shouldOpen = !item.classList.contains("is-open");
+
+  items.forEach((entry) => {
+    entry.classList.remove("is-open");
+    entry.querySelector(".accordion-trigger")?.setAttribute("aria-expanded", "false");
+  });
+
+  if (shouldOpen) {
+    item.classList.add("is-open");
+    trigger.setAttribute("aria-expanded", "true");
+  }
+});
 
 if (contactForm) {
   contactForm.addEventListener("submit", async (event) => {
     event.preventDefault();
+
     const formData = new FormData(contactForm);
-    const name = String(formData.get("name") || "").trim();
-    const email = String(formData.get("email") || "").trim();
-    const message = String(formData.get("message") || "").trim();
+    const requiredFields = ["name", "email", "topic", "message"];
+    const isMissing = requiredFields.some(
+      (field) => !String(formData.get(field) || "").trim()
+    );
 
     formStatus.classList.remove("is-success", "is-error");
 
-    if (!name || !email || !message) {
+    if (isMissing) {
       formStatus.classList.add("is-error");
-      formStatus.textContent = "Please fill in all fields first.";
+      formStatus.textContent = "Please fill in every field before sending.";
       return;
     }
 
     submitButton.disabled = true;
-    submitButton.textContent = "Sending...";
+    submitButton.innerHTML = 'Sending<span aria-hidden="true">+</span>';
     formStatus.textContent = "Sending your message...";
 
     try {
@@ -209,16 +303,16 @@ if (contactForm) {
         throw new Error("Request failed");
       }
 
-      formStatus.classList.add("is-success");
-      formStatus.textContent = "Message sent successfully.";
       contactForm.reset();
+      formStatus.classList.add("is-success");
+      formStatus.textContent = "Your message was sent successfully.";
     } catch (error) {
       formStatus.classList.add("is-error");
       formStatus.textContent =
-        "Message could not be sent right now. Please try again in a moment.";
+        "The form could not be sent right now. Please try again in a moment.";
     } finally {
       submitButton.disabled = false;
-      submitButton.textContent = "Send Message";
+      submitButton.innerHTML = 'Send message<span aria-hidden="true">+</span>';
     }
   });
 }
@@ -226,59 +320,19 @@ if (contactForm) {
 const revealItems = document.querySelectorAll(".reveal");
 
 if ("IntersectionObserver" in window) {
-  const revealObserver = new IntersectionObserver(
+  const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add("is-visible");
-          revealObserver.unobserve(entry.target);
+          observer.unobserve(entry.target);
         }
       });
     },
-    { threshold: 0.12 }
+    { threshold: 0.15 }
   );
 
-  revealItems.forEach((item) => {
-    revealObserver.observe(item);
-  });
+  revealItems.forEach((item) => observer.observe(item));
 } else {
-  revealItems.forEach((item) => {
-    item.classList.add("is-visible");
-  });
-}
-
-if (waterCursor && !prefersReducedMotion.matches) {
-  const cursorState = {
-    x: window.innerWidth / 2,
-    y: window.innerHeight / 2,
-    tx: window.innerWidth / 2,
-    ty: window.innerHeight / 2,
-  };
-
-  function animateWaterCursor() {
-    cursorState.x += (cursorState.tx - cursorState.x) * 0.16;
-    cursorState.y += (cursorState.ty - cursorState.y) * 0.16;
-    waterCursor.style.transform = `translate(${cursorState.x - 90}px, ${cursorState.y - 90}px)`;
-    requestAnimationFrame(animateWaterCursor);
-  }
-
-  window.addEventListener("mousemove", (event) => {
-    cursorState.tx = event.clientX;
-    cursorState.ty = event.clientY;
-    waterCursor.style.opacity = "1";
-  });
-
-  window.addEventListener("mousedown", () => {
-    waterCursor.classList.add("is-active");
-  });
-
-  window.addEventListener("mouseup", () => {
-    waterCursor.classList.remove("is-active");
-  });
-
-  document.addEventListener("mouseleave", () => {
-    waterCursor.style.opacity = "0";
-  });
-
-  requestAnimationFrame(animateWaterCursor);
+  revealItems.forEach((item) => item.classList.add("is-visible"));
 }
